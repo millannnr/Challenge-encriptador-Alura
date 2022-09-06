@@ -1,0 +1,234 @@
+﻿*{
+    font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F3F5FC;
+}
+
+
+/*Aqui inicia el CSS para el header*/
+.alura_logo{
+    position: absolute;
+    top: 30px;
+	left: 70px;
+}
+
+.titulo{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+
+
+/*Aqui inicia el CSS para el main*/
+main{
+	width: 100%;
+	height: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+section{
+	width: 40%;
+	height: 100%;
+}
+
+.envia_mensaje{
+	width: 70%;
+}
+
+.text_input{
+	position: absolute;
+	top: 00px;
+	left: 400px;
+	width: 500px;
+	height: 500px;
+	margin-top: 20px;
+	color: #0A3871;
+	background-color: #F3F5FC;
+	font-size: 25px;
+	border-radius: 10px;
+	border: none;
+	resize: none;
+}
+
+.text_input::-webkit-input-placeholder{
+	text-align: center;
+    line-height: 150px;
+	color: #0A3871;
+}
+
+.warning,.atencion{
+	display: inline-block;
+	position: absolute;
+	bottom: 180px;
+	font-family: 'Inter';
+  	font-style: normal;
+	font-size: 15px;
+}
+
+.warning{
+	text-align: center;
+	color: white;
+	left: 29.8%;
+	background-color: #495057;
+	width: 15px;
+	border-radius: 100%;
+}
+.atencion{
+	left: 31.5%;
+	color: #495057;
+}
+
+.encriptar, .desencriptar{
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+
+
+.encriptar{
+	background-color: #0A3871;
+	color: white;
+	border: none;
+	margin: 20px;
+}
+
+.encriptar:hover{
+    transform: scale(1.2);
+}
+
+.desencriptar{
+	background-color: #D8DFE8;
+	color: #0A3871;
+	border-color: #0A3871;
+	margin: 20px;
+	
+}
+.desencriptar:hover{
+    transform: scale(1.2);
+}
+
+.botones{
+	display: flex;
+	margin-top: 30px;
+	position: absolute;
+	bottom: 100px;
+	left: 28.4%;
+	
+}
+
+.recibe_mensaje{
+	position: relative;
+	width: 250px;
+	height: 500px;
+	background-color: white;
+	border-radius: 20px;
+	margin-right: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+
+
+.muneco{
+	width: 100%;
+	height: 30%;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+
+.contenedor_rta{
+	position: absolute;
+	width: 336px;
+	height: 781px;
+	left: 1090px;
+	top: 100px;
+	
+}
+
+
+.mensaje{
+	width: 250px;
+	height: 100px;
+	border: none;
+	resize: none;
+	text-align: center;
+	font-size: 15px;
+}
+
+.mensaje::-webkit-input-placeholder{
+    line-height: 100px;
+	font-weight: bold;
+	color: #343A40;
+	
+}
+
+.parrafo{
+	position: absolute;
+	top: 350px;
+	text-align: center;
+	font-size: 11px;
+	color: #495057;
+	
+}
+.boton_copiar{
+	position: fixed;
+	right: 40px;
+	top: 450px;
+	width: 15%;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #D8DFE8;
+	color: #0A3871;
+	border-color: #0A3871;
+	cursor:pointer;
+}
+
+.boton_copiar:hover{
+    transform: scale(1.2);
+}
+
+
+/*Aqui inicia el CSS para el footer*/
+
+.autor{
+	color: #0A3871;
+	font-family: 'Montserrat', sans-serif;
+  	font-weight: bold;
+	font-size: 16px;
+	padding: 5%;
+}
+
+
+.imagenes{
+	width: 30px;
+	height: 30px;
+}
+
+.linkedin{
+position: absolute;
+top: 88.5%;
+left: 25%;
+border: solid;
+border-color: #0A3871;
+}
+
+.git-hub{
+	position: absolute;
+	top: 88.5%;
+	left: 28%;
+	border: solid;
+	border-color: #0A3871;
+}
+
+.linkedin:hover , .git-hub:hover{
+	opacity: 0.5;
+}

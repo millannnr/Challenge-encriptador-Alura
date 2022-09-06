@@ -1,0 +1,51 @@
+﻿<!-- Hola esto es un coentario -->
+<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href=StyleSheet1.css>
+    <link rel="stylesheet" href=reset.css>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes encriptador/Vector.png" class="alura_logo" alt="Es el logo de alura inical A">
+    </header>
+
+    <main>
+        <section class="envia_mensaje">
+            <textarea class="text_input" onclick="limpiar_campo()" placeholder="Ingrese aquí su texto"  rows="6" cols="40"></textarea>
+
+            <span class="warning">!</span><span class="atencion">Solo letras minusculas y sin acentos</span>
+
+            <div class="botones"> 
+                <button class="encriptar" onclick= "boton_encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick= "boton_desencriptar()">Desencriptar</button>
+             </div>
+        </section>
+
+
+        <section class="recibe_mensaje">
+            <div>
+                <img src="imagenes encriptador/Muñeco.png" alt="Muñeco de alura" class="muneco">
+            </div>
+            <div><textarea class="mensaje" placeholder="Ningún mensaje fue encontrado." readonly="readonly" rows="8" cols="18"></textarea>
+                <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p></div>
+            <div><button class="boton_copiar" onclick="copiar()">Copiar</button></div>
+        
+        </section>
+    </main>
+    
+    <script type="text/javascript" src="Script1.js"></script>
+
+    <footer>
+        <p class="autor">Trabajo realizado por Rocio Millan</p>
+        <a class="linkedin" href="https://www.linkedin.com/in/millanr/" target="_blank"><img class="imagenes" src="imagenes encriptador/icons8-linkedin-30.png" alt="linkedin" ></a>
+        <a class="git-hub" href="https://github.com/millannnr" target="_blank"><img class="imagenes" src="imagenes encriptador/icons8-github-50.png" alt="git-hub" ></a>
+    </footer>
+
+</body>
+</html>
+
