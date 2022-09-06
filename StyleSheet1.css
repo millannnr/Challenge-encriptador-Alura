@@ -55,6 +55,7 @@ section{
 	border-radius: 10px;
 	border: none;
 	resize: none;
+	outline: none;
 }
 
 .text_input::-webkit-input-placeholder{
@@ -162,6 +163,7 @@ section{
 	resize: none;
 	text-align: center;
 	font-size: 15px;
+	outline: none;
 }
 
 .mensaje::-webkit-input-placeholder{
